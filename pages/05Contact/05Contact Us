@@ -1,0 +1,20 @@
+<style>
+	td{
+		padding:0.5em 1em 1em 1em;
+	}
+</style>
+<table>
+	<tr>
+		<td><b>Address</b></td>
+		<td>Dr.  Jimson Mathew <br> Indian Institute of Technology,  Patna<br>Bihta, Patna- 801103.</td>
+	</tr>
+	<tr>
+		<td><b>Email</b></td>
+		<td>jimson@iitp.ac.in</td>
+	</tr>
+	<tr>
+		<td><b>Phone</b></td>
+		<td>+91 602 302 8347</td>
+	</tr>
+</table>
+

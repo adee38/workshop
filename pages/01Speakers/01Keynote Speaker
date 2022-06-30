@@ -1,0 +1,105 @@
+<style>
+	table{
+		margin: 1em;
+		width: 100%;
+	}
+	td{
+		padding: 1em;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.name{
+		width: 30%;
+	}
+	.name img{
+		width: 10em;
+		border-radius:50%;
+	}
+	.desc{
+		width: 70%;
+	}
+</style>
+<table>
+	
+<tr>
+		<td class="name"><br><img src="images/PushpakBhattacharyya.png"><br> Prof. Pushpak Bhattacharyya  <br> Director, IIT Patna, 
+<br> </td>
+		<td class="desc">
+ 
+Prof. Pushpak Bhattacharyya is the director of IIT Patna and  He has also currently been appointed as Vijay and Sita Vashee Chair Professor at IITB.
+A highly recognised researcher, He is a member of National Knowledge Commission: task force on translation, set up by the Prime Minister of India and Committee on Language Technology, set up by the Planning Commission of India, 2006. For his outstanding contribution to CS, he has received many accolades including IBM Innovation award (2007), Yahoo Faculty Award (2011), P. K. Patwardhan Award for Technology Development (2008), and VNMM Award of IIT Roorkee (2014). He is also an associate editor of ACM Transaction of Asian Language Information Processing (TALIP) (since 2011), chair of lexical resources committee of Asian Federation of NLP and board member of Global Wordnet Association. Prof. Bhattacharyya is member of the Committee to decide Language Technology Policy, Ministry of Human Resources Development (MHRD).
+He specializes in NLP, ML, MT, Cross Lingual IR (CLIR) and IE. Recently his text book "Machine Translation" has been published by CRC Press, USA. 
+<a style="color: blue" ;="" href="https://www.cse.iitb.ac.in/~pb/">  For more information  </a>
+		
+	</tr>
+
+
+		
+	<tr>
+		<td class="name"><br><img src="images/sangamitra.jpg"><br> Prof. Sanghamitra Bandyopadhyay <br> Director ISI, Kolkata
+<br> </td>
+		<td class="desc">
+ 
+Prof. Sanghamitra Bandyopadhyay did her B Tech, M Tech and Ph. D. in Computer Science from Calcutta University, IIT Kharagpur and ISI respectively. She joined the Indian Statistical Institute in 1999, where she is now the Director. She has also worked in various Universities and Institutes world-wide including in USA, Australia, Germany, France, China, Italy and Mexico.
+Her research interests include computational biology and bioinformatics, soft and evolutionary computation, PR and data mining. She is a Fellow of the NASI, NAE, NSA, IEEE and West Bengal Academy of Science and Technology. She is the recipient of several prestigious awards including the Dr. ShankerDayal Sharma Gold Medal and also the Institute Silver Medal from IIT, Kharagpur, India, the Young Scientist Awards of the INSA, ISCA, the Young Engineer Award of the INAE, the Swarnajayanti fellowship from the DST, and the Humboldt Fellowship from Germany. She has been selected as a Senior Associate of ICTP, Italy. She was awarded the prestigious Shanti SwarupBhatnagar Prize in Engineering Science, one of the most coveted awards for scientists in India. She is a JC Bose Fellow of the Department of Science and Technology.
+<a style="color: red" ;="" href="https://www.isical.ac.in">  For more information  </a>
+
+	</tr>
+
+<tr>
+		<td class="name"><br><img src="images/shyamsundar.jpg"><br> Professor  R.K. Shyamasundar<br> JC Bose National Fellow & Distinguished V. Professor<br>  IIT Bombay</td>
+		<td class="desc">
+
+Prof. R K Shyamasundar is a Fellow of IEEE,  a Distinguished Alumnus of Indian Institute of Science,  IEEE Distinguished Speaker, is currently JC Bose National Fellow, Distinguished Prof, at the Dept. of CS, IIT Bombay and directs the Information Security Research and Development Centre from DeiTY, Govt. of India.  He was awarded the 2014 SN Mitra award for excellence in research by the Indian NAE.  Recently he has been appointed Scholar-in-Residence at IIT Jodhpur. He is the founding Dean of the School of Technology and CS at TIFR.  He has more than 300 publications, 8 books, 8 international patents, 3 Indian patents, and 3 Best Paper Awards.    He did post-doctoral work under the legendary Turing Laureate Professor Dr. Edsgar W. Dijkstra. He has been invited as a Distinguished Visiting Fellow by the UK Royal Academy of Engineering in 2016. He has served as Faculty/Staff at IBM TJ Research, Eindhoven University, State University of Utrecht, Pennsylvania State University, University of Illinois, University of California at San Diego at Lajolla, University of Cambridge, University of Linkoping, SUNU at Albany, UNM at Albuquerque, IRISA, INRIA, CWI, JAIST Japan, Max Planck Institute, IBM Research India etc			 
+<a style="color: brown" ;="" href="https://www.cse.iitb.ac.in/~rkss/">  For more information  </a>
+
+		</td>
+	</tr>	
+	
+
+<tr>
+		<td class="name"><br><img src="images/Dhiren.jpg"><br> Professor    Dhiren Patel,  <br>  Director, VJTI Mumbai  </td>
+		<td class="desc">
+
+Prof. Dhiren Patel is currently the Director of VJTI Mumbai, India. He also heads Blockchain and AI research group at VJTI Mumbai. Prior to joining VJTI Mumbai, Dr. Dhiren has worked as a Professor of Computer Engineering at NIT Surat, India.  His research interests include Blockchain Technology, AI for Social Good, Cloud Security and Trust Management, Internet of Things and Green computing. Professor Patel has/had academic and research associations with IIT Gandhinagar, IIT Madras, IIT Bombay, City University London, University of Denver, IMT Atlantique, University of Oslo, Meiji University, HAW Hamburg, University of Mumbai, TCS, ISO TC 307 and many more. He has played an instrumental role in design and implementation of AIEEE/CCB and JoSAA (Nation-wide centralized engineering admission systems in India). Prof Patel is alumnus of IIT Kanpur, India.	 
+<a style="color: brown" ;="" href="http://www.vjti.ac.in/index.php/aboutus/directordesk">  For more information  </a>
+
+		</td>
+	</tr>	
+	
+<tr>
+		<td class="name"><br><img src="images/Yann-Busnel.jpg"><br> Prof. Yann Busnel, IMT Atlantique, Bretagne-Pays de la Loire <br> France
+<br> </td>
+		<td class="desc">
+Prof Yann Busnel is Full Professor at IMT Atlantique, Bretagne-Pays de la Loire. Since January 1st 2017, he's also head of SRCD department (Network Systems, Cybersecurity and Digital Law), on Rennes Campus. 
+After his PhD in Computer Sciences at University of Rennes (France) in November 2008, he spent one year at University"La Sapienza" in Roma, Italy (2008-2009). Then, he has been assistant professor (Matre de Conferences) at University de Nantes, in the computer sciences department at UFR Sciences et Techniques (2009-2014). Following, he has been associate-professor at ENSAI (National Graduate School on Statistics and Data Analysis), where he has acted as Head of the Computer Sciences department (2014-2016). He finally obtained his "Habilitation  diriger les recherches" (HDR) in Computer Sciences from Ecole Normale Superieure de Rennes (France) in December 2016. 
+His research topics are mainly related to Data stream analysis over Big Data and model for large-scale distributed systems and networks. 
+<a style="color: brown" ;="" href=" https://www.imt-atlantique.fr/en/person/yann-busnel ">  For more information  </a>
+	
+	</tr>
+
+
+	
+	
+	
+<tr>
+		<td class="name"><br><img src="images/pic-raj.jpg"><br> Prof. Rajiv Ranjan<br> Chair and Professor of Computing Science<br> Newcastle University, UK</td>
+		<td class="desc">
+
+Dr. Rajiv Ranjan is a Chair Professor in Computing Science and Internet of Things at Newcastle University, United Kingdom. He has received two IEEE research excellence awards (2018 IEEE TCCPS Early Career Award and 2016 IEEE TCSC Award for Excellence in Scalable Computing), which recognised his leading expertise in algorithms, resource management models and distributed system architectures for Cloud computing, Internet of Things (IoT) and Data Science. Additionally, he also serves on the editorial boards of top quality international journals including IEEE Transactions on Cloud computing, ACM Transactions on Internet of Things, IEEE Transactions on Computers (2014-2016), IEEE Cloud Computing, Springer Computing, The Computer Journal, among many others He is one of the highly cited authors (top 0.05%) in computer science and software engineering worldwide (h-index=46, g-index=122, and 12800+ google scholar citations).
+<a style="color: blue" ;="" href="  https://rajivranjan.net/ ">  For more information  </a>			 
+		</td>
+	</tr>
+
+
+
+
+	<tr>
+			<td class="name"><br><img src="images/KshitijGarg.jpg"><br>   <br>   <br>    </td>
+			<td class="desc">
+				
+			</td>
+	</tr>
+	
+	
+</table>

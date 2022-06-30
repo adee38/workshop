@@ -1,0 +1,10 @@
+<style>
+iframe{
+	height: 30em;
+	width: 100%;
+}
+</style>
+Nearest Airport is at Patna (31 KM). Cabs are available from Patna to the Venue.<br>
+Nearest Railway stations: Bihta (4 KM), Patna (35 KM), Dhanapur (23 KM).<br><br>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d65008.618739879355!2d84.84254251229079!3d25.535559927078573!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6ce8f1b9fc2aa02a!2sIndian+Institute+Of+Technology+Patna!5e0!3m2!1sen!2sin!4v1470384248730" style="border:0" allowfullscreen="" frameborder="0"></iframe>

@@ -1,0 +1,17 @@
+<style>
+	marquee{
+		text-align:center;
+	}
+</style>
+<marquee direction="up" style="height:10em" onmouseover="this.stop();" onmouseout="this.start();">
+	<a  href="https://www.iitp.ac.in/~icdse2019/content.php?c=01Call%20for%20Papers&id=01CallforPapers">  Call for Submissions </a> <br><br><br>
+	<a  href="#">  Full paper Submission (10th June) </a> <br><br><br>
+	<a href="images/Special_Issue_JISE.pdf">Special Issue (JISE)</a> <br><br><br>
+	<a  href="#"> Journal Special Issue2(JISE) SCIE </a> <br><br><br>
+	<a  href="#"> Fellowships/Travel Grants </a> <br><br><br>
+	<a  href="#">  Industry Interaction  </a> <br><br><br>
+	<a  href="#">  Best Paper Awards  </a> <br><br><br>
+	<a href="images/Special_Issue_Springer.pdf">Special Issue (Springer)</a> <br><br><br>
+	<a href="images/workshop.pdf">Workshop</a> <br><br><br>
+	<a  style="color: red"; href=" https://cmt3.research.microsoft.com/ICDSE2019 ">  Submission link: </a>   <br> 
+</marquee>

@@ -1,0 +1,593 @@
+/* CSS Reset */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+body {
+	line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+	display:block;
+}
+
+nav ul {
+	list-style:none;
+}
+
+blockquote, q {
+	quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content:'';
+	content:none;
+}
+
+a {
+	margin:0;
+	padding:0;
+	font-size:100%;
+	vertical-align:baseline;
+	background:transparent;
+}
+
+ins {
+	background-color:#ff9;
+	color:#000;
+	text-decoration:none;
+}
+
+mark {
+	background-color:#ff9;
+	color:#000; 
+	font-style:italic;
+	font-weight:bold;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+	border-bottom:1px dotted;
+	cursor:help;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+hr {
+	display:block;
+	height:1px;
+	border:0;	 
+	border-top:1px solid #cccccc;
+	margin:1em 0;
+	padding:0;
+}
+
+input, select {
+	vertical-align:middle;
+}
+
+
+/* Real Code Begins here... */
+
+body{
+	background: #dfdfdf;
+	width:100%;
+	height:100%;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+a{
+	text-decoration:inherit;
+	color:inherit;
+}
+
+.logo{
+	font-size: 1.2em;
+	color:#555;
+	padding:1em;
+	text-align:center;
+	margin: 1em auto;
+}
+.logo span{
+	display:block;
+	font-size:2.2em;
+	color:#333;
+	position:relative;
+	transform:translatey(-25%);
+}
+.logo .sub{
+	display:inline-block;
+}
+.logo img{
+	width: 5em;
+	max-width:100%;
+	margin:0 0.25em;
+	opacity:0.9;
+}
+
+.container{
+	background: #fff;
+	position: relative;
+	margin: 2% auto;
+	width: 100%;	
+	max-width: 920px; /* combination adopted for responsiveness*/
+	overflow: hidden;
+}
+
+
+#menu-wrapper{
+	text-align:center;
+	background-color:#00b4ff;
+}
+.toggle,
+[id^=drop] {
+	display: none;
+	text-align:center;
+	
+}
+nav { 
+	margin:auto;
+	padding: 0.1em;
+	display:inline-block;
+	text-align:center;
+}
+nav ul li:hover { background:#DB4444; }
+
+nav:after {
+	content:"";
+	display:table;
+	clear:both;
+}
+nav ul {
+	padding:0;
+	margin:0px auto;
+	list-style: none;
+	}
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	float: left;
+	background-color:#4ccbff;
+	border-right: 1px solid #00b4ff;
+	}
+nav a {
+	display:block;
+	padding:12px 16px;	
+	color:#FFF;
+	font-size:17px;
+	text-decoration:none;
+}
+
+nav ul li ul li:hover { background:#2576D2; }
+
+nav a:hover { 
+	background-color:#DB4444; 
+}
+nav ul ul {
+	visibility: hidden;
+	opacity: 0;
+	position: absolute;
+	transform: translateZ(0);
+	transform: translateY(10%);
+	transition: all 0.5s ease 0s, visibility 0s linear 0.5s;
+}
+nav ul li:hover > ul {
+	display:inherit;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(0%);
+transition-delay: 0s;
+}
+nav ul ul li {
+	width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+nav ul ul ul li {
+	position: relative;
+	top:-60px;
+	left:170px; 
+}
+
+/* Media Queries
+--------------------------------------------- */
+
+@media all and (max-width : 808px) {
+/* Hide Dropdowns by Default
+ * and giving it a position of absolute */
+nav ul ul {
+	display: none;
+	position: absolute; 
+	/* has to be the same number as the "line-height" of "nav a" */
+	top: 60px; 
+}
+	
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+	display:inherit;
+}
+
+	nav {
+		margin: 0;
+	}
+
+	/* Hide the navigation menu by default */
+	/* Also hide the	*/
+	.toggle + a,
+	.menu {
+		display: none;
+	}
+
+	/* Stylinf the toggle lable */
+	.toggle {
+		display: block;
+		background-color:#368DF0;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+	}
+
+	.toggle:hover {
+		background-color:#0E4584;
+	}
+
+	/* Display Dropdown when clicked on Parent Lable */
+	[id^=drop]:checked + ul {
+		display: block;
+		width: 100%;
+	}
+
+	/* Change menu item's width to 100% */
+	nav ul li {
+		display: block;
+		width: 100%;
+		}
+
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: #000000;
+	}
+	
+	nav ul li ul li .toggle,
+	nav ul ul a,
+	nav ul ul ul a{
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px; 
+	}
+	
+	
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #212121; 
+	}
+
+	/* Hide Dropdowns by Default */
+	nav ul ul {
+float: none;
+position: static;
+color: #ffffff;
+visibility: visible;
+opacity: 1;
+transform: none;
+		/* has to be the same number as the "line-height" of "nav a" */
+	}
+		
+	/* Hide menus on hover */
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+		
+	/* Fisrt Tier Dropdown */
+	nav ul ul li {
+		display: block;
+		width: 100%;
+	}
+
+	nav ul ul ul li {
+		position: static;
+		/* has to be the same number as the "width" of "nav ul ul li" */ 
+
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 100%;
+	}
+
+}
+
+
+#menuwrap{
+	float: left;
+	background: #fff;
+	width: 100%;
+	position: relative;
+	margin: 0 auto 1.25em auto;
+	padding: 0;
+	height: 2.92em;
+}
+
+#menu{
+	position: absolute;
+	width: 100%;
+	max-width: 918px; /* combination adopted for responsiveness*/
+	margin: auto;
+	background: #00b4ff;
+	z-index: 99;
+	text-align: center;
+	display:table;
+	border: solid #00aaff 0.15em;
+}
+#menu .main{
+	background:rgba(255,255,255,0.3);
+	display:inline-block;
+	font-size:1.2em;
+	padding:0.6em;
+	color:#fff;
+	border: solid #00aaff 0.01em;
+}
+#menu li:hover{
+	background:rgba(255,255,255,0.2);
+}
+
+#menu.fixed {
+	position: fixed;
+	top: 0;
+	z-index: 99;
+}
+#menu .sub-menu{
+	position:absolute;
+	background:rgba(0,0,0,0.8);
+	margin-top: 0.6em;
+	transform:translateX(-0.7em);
+	opacity:0;
+	visibility: hidden;
+	transition: all linear 0.25s;
+}
+#menu .sub-menu li{
+	padding:0.6em;
+	list-style-type: none !important;
+}
+#menu li:hover .sub-menu{
+	visibility: visible;
+	opacity:1;
+}
+.content{
+	padding:2em 1em;
+	text-align:center;
+	line-height:1.2em;
+}
+.content .block{
+	display:inline-block;
+	width:375px;
+	max-width:100%;
+	padding:1.25em;
+	margin:0.75em;
+	border: #bbb dotted 0.1em;
+	border-radius:0.5em;
+	text-align:justify;
+	vertical-align:top;
+}
+.content .block h3{
+	text-align:center;
+}
+.slide{
+	background:#333;
+	color:#ccc;
+	font-size:0.8em;
+	width:100%;
+	max-width: 900px; /* combination adopted for responsiveness*/
+}
+.slide img{
+	transition: all linear 0.25s;
+	border: #222 solid 1em;
+	height:25em;
+	width: 100%;
+}
+.slide img:hover{
+	border: #555 solid 1em;
+}
+.slide .block{
+	display:inline-block;
+	width:100%;
+	vertical-align:middle;
+}
+
+/* .slide .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+.slide .prevButton:hover{ background-position:left bottom;left:0;}
+
+.slide .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('../images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+.slide .nextButton:hover{background-position:right bottom;right:0;} */
+
+.slide ul{
+	list-style:none outside none;
+}
+
+.slide li:first-child{
+	display:list-item;
+}
+
+.slide li{
+	display:none;
+}
+
+.sidebar{
+	padding:1em 0.5em;
+	display:inline-block;
+	width:18%;
+	vertical-align:top;
+}
+.sidebar li{
+	list-style-type: none;
+	text-align:left;
+}
+.sidebar a{
+	color:#0099ff;
+}
+.sidebar a:hover{
+	text-decoration: underline;
+}
+.text{
+	display:inline-block;
+	padding:1em;
+	text-align:justify;
+	width:72%;
+}
+.text img{
+	width: 40em;
+	max-width:100%;
+	display: block;
+	margin: 0.5em auto;
+}
+
+
+h3{
+	font-size:1.2em;
+	margin:0 0 0.75em 0;
+	border-bottom: #bbb dotted 0.1em;
+	padding:0 0 0.3em 0;
+}
+h4{
+	font-size:1em;
+	margin:0 0 0.75em 0;
+	border-bottom: #bbb dotted 0.1em;
+	padding:0 0 0.3em 0;
+}
+
+#footer{
+	background:#333;
+	color:#ccc;
+	padding:0.75em;
+	width:100%;
+	max-width: 900px; /* combination adopted for responsiveness*/
+}
+#footer .thumbnail{
+	height: 3em;
+	width: 5em;
+	border: #555 solid 0.25em;
+	margin: 0.25em;
+	transition: all linear 0.25s;
+}
+#footer .thumbnail:hover{
+	border: #777 solid 0.25em;
+}
+#copy{
+	background:#1D1D1D;
+	color:#5e5e5e;
+	padding:1.25em;
+	font-size:0.8em;
+	width:100%;
+	max-width: 900px; /* combination adopted for responsiveness*/
+	border-radius: 0.1em;
+}
+#copy span{
+	float:right;
+}
+
+.lightbox {
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 80%;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+.sponsors{	
+	border-top: #bbb dotted 0.1em;
+	padding: 0.5em;
+	text-align: center;
+}
+
+.sponsors img{
+	max-width: 7em;
+	max-height: 7em;
+	padding: 0 1em 1em 1em;
+}
